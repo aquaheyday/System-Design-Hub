@@ -55,3 +55,10 @@ serverIndex=hash(key) % N
 ![Image](/drawio/해시링.drawio.png)
 
 ### 해시 서버
+이 해시 함수 f를 사용하면 서버 IP나 이름을 이 링 위의 어떤 위치에 대응 시킬 수 있다.  
+
+![Image](/drawio/해시서버.drawio.png)
+
+### 해시 키
+사용된 해시 함수는 "해시 키 재배치 문제"에 언급된 함수와는 다르며, 나머지(modular)연산 %는 사용하지 않고 있음에 유의하자.  
+캐시할 키 key0, key1, key2, key3 또한 해시 링의 어느 지점에
