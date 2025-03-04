@@ -114,4 +114,4 @@ W+R>N인 경우에는 강한 일관성(strong consistency)이 보장된다.
 - [Si, vi]가 있으면 vi를 증가시킨다.
 - 그렇지 않으면 새 항목 [Si, 1]를 만든다.
 
-
+![Image](/drawio/데이터-버저닝-로직.drawio.png)
